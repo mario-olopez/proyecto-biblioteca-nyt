@@ -1,0 +1,152 @@
+:root {
+    --color-texto: #000000;
+    --fuente-texto:'Times New Roman', Times, serif;
+     
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/media/libreria.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: var(--fuente-texto);
+    color: var(--color-texto);
+}
+
+.foto-encabezado{
+    text-align: center;
+    width: 100%;
+    border: solid 2px black;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white; 
+    padding: 15px; 
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    border-radius: 5px; 
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: white;
+    font-family: var(--fuente-texto);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+select {
+    font-family: var(--fuente-texto);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.loader {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+}
+
+.contenedor-listas{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tarjeta-lista{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.tarjeta-lista h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta-lista a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.libro-detalle {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.filtro {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    width: 100%;
+}
+
+.filtro label {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#listas-libros label {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#filtro-actualizacion {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-family: var(--fuente-texto);
+    background-color: #f0f0f0; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+
+#filtro-actualizacion, #filtro-orden-oldest, #filtro-orden-newest, #filtro-orden-categoria {
+    display: block;
+    margin: 10px 0;
+    width: 200px;
+}
+
+@media(min-width: 768px){
+    body{
+        font-size: 1.2rem;
+    }
+}
