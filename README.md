@@ -4,7 +4,7 @@
 
 Este proyecto consiste en crear una biblioteca interactiva con los libros más vendidos según la [API del New York Times](https://developer.nytimes.com/docs/books-product/1/overview).
 
-![Gif libros](/media/libros-gif.gif)
+<p align="center"><img src="media/libros-gif.gif" alt="Gif de libros" width="700"></p>
 
 ## 🎯 Objetivos del proyecto 
 
@@ -12,7 +12,8 @@ Este proyecto consiste en crear una biblioteca interactiva con los libros más v
 - Uso de ES6 y asincronía con `fetch`.
 - Gestión de proyecto en GitHub con ramas y buenas prácticas de desarrollo.
 - Diseño **responsive** y enfoque **mobile first**.
-- HTML5 semántico.
+
+<p align="center"><img src="media/captura-vista-movil.png" alt="Vista de la biblioteca en versión móvil" width="300"/></p>
 
 ## 💻 Tecnologías utilizadas
 
@@ -57,4 +58,4 @@ Proyecto realizado por: Mario L. Clavero 🧑🏻‍💻
 1. Clona este repositorio o descarga el código
 2. Puedes acceder a la biblioteca a través de este enlace: [Biblioteca Best Sellers](https://mario-olopez.github.io/proyecto-biblioteca-nyt/)
 
-![Stan Lee consulta libros en mi biblioteca](/media/gif-final.gif)
+<p align="center"><img src="media/gif-final.gif" width="700"></p>
