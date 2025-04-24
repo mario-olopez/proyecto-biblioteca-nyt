@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url("./media/libreria.jpg");
+    background-image: url("../media/libreria.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
